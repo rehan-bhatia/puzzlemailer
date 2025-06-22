@@ -5,7 +5,6 @@ import random
 from datetime import datetime
 from email.mime.text import MIMEText
 import smtplib
-from replit import db
 
 # === Config ===
 GMAIL_ADDRESS = os.environ['GMAIL_ADDRESS']
